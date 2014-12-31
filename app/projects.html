@@ -1,0 +1,131 @@
+<!doctype html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <title>Kinloch Interiors</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="shortcut icon" href="/favicon.ico">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- build:css styles/vendor.css -->
+        <!-- bower:css -->
+
+        <!-- endbower -->
+        <!-- endbuild -->
+        <!-- build:css(.tmp) styles/main.css -->
+        <link rel="stylesheet" href="styles/main.css">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <!-- bxSlider CSS file -->
+        <link href="styles/jquery.bxslider.css" rel="stylesheet" />
+        <!-- endbuild -->
+    </head>
+    <body>
+        <!--[if lt IE 10]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+
+        <div id="header">
+            <a class="logo" href="#"><img src="images/kinloch-logo.png" width="225px"></a>
+                <ul>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="portfolio.html">PORTFOLIO</a></li>
+                    <li><a href="inspiration.html">INSPIRATION</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+        </div>
+
+        <nav id="responsive-header">
+            <a class="responsive-logo" href="#"><img src="images/kinloch-logo.png" width="225px"></a>
+                <ul>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="portfolio.html">PORTFOLIO</a></li>
+                    <li><a href="projects.html">INSPIRATION</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+        </nav>
+
+        <div class="project-body-wrapper">
+            <div class="project-col-left">
+                <ul class="bxslider">
+                  <li><img src="images/kinloch-p5.2.jpg" /></li>
+                  <li><img src="images/kinloch-p5.1.jpg" /></li>
+                  <li><img src="images/kinloch-p5.jpg" /></li>
+                </ul>
+            </div>
+            <div class="project-col-right">
+                <div class="col-right-header">
+                    <span> Greenville, South Carolina </span>
+                    <span> Private Residence </span>
+                </div>
+                <div class="col-right-review">
+                    “Our experience with Kinloch Interiors has been delightful. Having a firm with such extensive expertise has removed much of the pressure one typically feels when designing, building and furnishing a new home. Each step of the way, they have guided us and ensured our needs and wishes were addressed. We have appreciated their willingness to listen, collaborate and work tirelessly to turn the home we envision into a reality. ”
+                </div>
+                <div class="col-right-social-icons">
+                    <ul> 
+                        <li> <a href='javascript:void((function()%7Bvar%20e=document.createElement(&apos;script&apos;);e.setAttribute(&apos;type&apos;,&apos;text/javascript&apos;);e.setAttribute(&apos;charset&apos;,&apos;UTF-8&apos;);e.setAttribute(&apos;src&apos;,&apos;http://assets.pinterest.com/js/pinmarklet.js?r=&apos;+Math.random()*99999999);document.body.appendChild(e)%7D)());'><i class="fa fa-pinterest"></i></a></li>
+                        <li> 
+                        <a href="http://www.facebook.com/share.php?u=<url>" onclick="return fbs_click()" target="_blank"><i class="fa fa-facebook"></i> </a></li>
+                    </ul>
+                </div>
+                <div class="col-right-return">
+                    <a href="portfolio.html"> return to portfolio </a>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer" class="contact-footer">
+            <div class="footer-copy">
+                <div class="location" > greenville, sc </div>
+                <div class="phone-number"> 864.414.6767 </div>
+                <div class="copyright"> copyright kinloch interiors 2014 </div>
+            </div>
+        </div>        
+
+
+        <!-- build:js scripts/vendor.js -->
+        <!-- bower:js -->
+        <script src="../bower_components/jquery/dist/jquery.js"></script>
+        <!-- endbower -->
+        <!-- endbuild -->
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+
+        <!-- build:js({app,.tmp}) scripts/main.js -->
+        <script src="scripts/main.js"></script>
+        <!-- jQuery library (served from Google) -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <!-- bxSlider Javascript file -->
+        <script src="scripts/jquery.bxslider.min.js"></script>
+        <!-- endbuild -->   
+
+        <script>
+            $('.bxslider').bxSlider({
+              infiniteLoop: false,
+              hideControlOnEnd: true
+            });
+        </script>
+
+        <!-- Please call pinit.js only once per page -->
+        <script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script>
+
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+</body>
+
+</html>
